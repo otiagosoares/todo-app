@@ -1,6 +1,7 @@
 const restful = require('node-restful')
 const mongoose = restful.mongoose
 
+//MONTA O ESQUEMA/ ESTRUTURA DOS DADOS
 const todoSchema = new mongoose.Schema({
 
 	description: { type: String, required: true },
